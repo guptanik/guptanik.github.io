@@ -2,27 +2,84 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>My test page</title>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-
+    <title>NikhilGupta portfolio</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <h1>Mozilla is cool</h1>
-    <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
-
-    <p>At Mozilla, we’re a global community of</p>
-    
-    <ul> <!-- changed to list in the tutorial -->
-      <li>technologists</li>
-      <li>thinkers</li>
-      <li>builders</li>
-    </ul>
-
-    <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
-
-    <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
-    <button>Change user</button>
-    <script src="scripts/main.js"></script>
+    <div class="container-fluid">
+      <div class="row header">
+        <div class="col-md-2 text-right">
+          <img class="self_image img-circle" src="images/self.jpg" alt="Nikhil Gupta's image">
+        </div>
+        <div class ="col-md-6">
+          <h1 class="name_text">Nikhil Gupta</h1>
+          <h1 class="title_text">Software Developer</h1>
+        </div>
+        <div class="col-md-4 text-center">
+          <a class="home_link" href="index.html">
+            <i class="fa fa-home fa-inverse fa-3x"></i>
+          </a>
+          <a class="linkedin_connect" href="https://in.linkedin.com/in/guptanik" target="_blank">
+            <i class="fa fa-linkedin-square fa-3x fa-inverse"></i>
+          </a>
+        </div>
+      </div>
+      <div class="tiles">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-3">
+            <div id="academics" class="thumbnail academics">
+              <div id="academics_text" class="academics_text"><p>Academics</p></div>
+              <a href="">                                
+                <img src="images/graduation.png" alt="Academics" title="Academics" />
+              </a>
+            </div>
+            <div id="exp" class="thumbnail exp">
+                <div id="exp_text" class="exp_text"><p>Industrial Training/Experience</p></div>
+                <a href="">                                
+                  <img src="images/experience.jpg" alt="Experience" title="Experience" />
+                </a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div id="skills" class="thumbnail skills">
+              <div id="skills_text" class="skills_text"><p>Skills</p></div>
+              <a href="">                                
+                <img src="images/skills.png" alt="Skills" title="Skills" />
+              </a>
+            </div>
+            <div id="achieve" class="thumbnail achieve">
+              <div id="achieve_text" class="achieve_text"><p>Achievements</p></div>
+              <a href="">                                
+                <img src="images/achievements.png" alt="Achievements" title="Achievements" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div id="projects" class="thumbnail projects">
+              <div id="projects_text" class="projects_text"><p>Projects</p></div>
+              <a href="">                                
+                <img src="images/projects.png" alt="Projects" title="Projects" />
+              </a>
+            </div>
+            <div id="extra" class="thumbnail extra">
+              <div id="extra_text" class="extra_text"><p>Co-curricular Activities</p></div>
+              <a href="">                                
+                <img src="images/extra.png" alt="Co-Curricular Activities" title="Co-Curricular Activities" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript" src="scripts/main.js"></script>
+    </div>
   </body>
 </html>
