@@ -24,11 +24,17 @@
 }
 
 .title_text {
-  color: white;
+  color: orange;
   display: inline;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Indie Flower', cursive;
   font-size: 30px;
   margin-left: 10px;
+  align-self:center;
+}
+
+.current_tab {
+  color: white;
+  font-size: 30px;
   align-self:center;
 }
 
@@ -170,4 +176,102 @@
   margin-bottom: -10px;
   text-decoration: none;
   text-align: center;
+}
+
+.footer {
+  width: 100%;
+  background-color: #3498DB;
+  display: flex;
+  align-items: center;
+  position:absolute
+  bottom:30px;
+  margin-right: 0px;
+  margin-left: 0px;
+  text-decoration: none;
+}
+
+.about_me {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  text-decoration: none;
+}
+
+.phone, .mail {
+  align-self: center;
+  margin: 10px;
+}
+
+@-webkit-keyframes thumb {
+  0% { -webkit-transform: scale(1); }
+  50% { -webkit-transform: scale(0.9); }
+  100% { -webkit-transform: scale(1); }
+}
+
+.home_link:hover, .linkedin_connect:hover
+{
+  -webkit-animation-name: thumb;
+  -webkit-animation-duration: 300ms;
+  -webkit-transform-origin:100% 100%;
+  -webkit-animation-iteration-count: 5;
+  -webkit-animation-timing-function: linear;
+}
+
+.about_me:hover
+{
+  -webkit-animation-name: thumb;
+  -webkit-animation-duration: 300ms;
+  -webkit-transform-origin:50% 50%;
+  -webkit-animation-iteration-count: 5;
+  -webkit-animation-timing-function: linear;
+}
+
+.phone[title]:hover:after {
+  content: "+91 8951680300";
+  font-size: 20px;
+  padding: 4px 8px;
+  margin: 10px;
+  color: #333;
+  position: relative;
+  left: 0;
+  top: 100%;
+  z-index: 20;
+  white-space: nowrap;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 4px #222;
+  -webkit-box-shadow: 0px 0px 4px #222;
+  box-shadow: 0px 0px 4px #222;
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+}
+
+.mail[title]:hover:after {
+  content: "nikhilgupta.dtu@gmail.com";
+  font-size: 20px;
+  padding: 4px 8px;
+  margin: 10px;
+  color: #333;
+  position: relative;
+  left: 0;
+  top: 100%;
+  z-index: 20;
+  white-space: nowrap;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 4px #222;
+  -webkit-box-shadow: 0px 0px 4px #222;
+  box-shadow: 0px 0px 4px #222;
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
 }
