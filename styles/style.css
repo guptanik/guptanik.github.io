@@ -197,6 +197,14 @@
   text-decoration: none;
 }
 
+.about_me_text {
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  align-self: center;
+  margin-bottom: -10px;
+}
+
 .phone, .mail {
   align-self: center;
   margin: 10px;

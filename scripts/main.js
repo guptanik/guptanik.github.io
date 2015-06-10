@@ -38,7 +38,7 @@ skill_tile.onmouseout = function() {
 }
 
 // Achievements
-var achieveText = document.getElementById('achieve_text');
+/*var achieveText = document.getElementById('achieve_text');
 achieveText.style.display = "none";
 var achieve_tile = document.getElementById('achieve');
 
@@ -48,7 +48,7 @@ achieve_tile.onmouseover = function() {
 
 achieve_tile.onmouseout = function() {
   achieveText.style.display = "none";
-}
+}*/
 
 // Projects
 var projectText = document.getElementById('projects_text');
