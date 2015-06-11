@@ -1,74 +1,57 @@
-body {
-    max-width: 1400px;
+.header_footer_background {
+  min-width: 100%;
+  background-color: #3498DB;
+  margin: 0px;
 }
 
-.header {
-  width: 100%;
+.header_content {
+  max-width: 1100px;
   background-color: #3498DB;
-  margin-bottom: 0px;
+  margin: 0px auto;
   display: flex;
   align-items: center;
-  position: fixed;
-  z-index: 5;
 }
 
-.self_image {
+.profile_image {
   width: 75px;
   height: 75px;
   margin: 5px;
   border: 4px solid white;
 }
 
-.name_text {
+.name {
   color: white;
   display: inline;
   font-family: 'Abel', sans-serif;
   font-size: 50px;
-  align-self: center;
-}
-
-.title_text {
-  color: orange;
-  display: inline;
-  font-family: 'Indie Flower', cursive;
-  font-size: 30px;
-  margin-left: 10px;
-  align-self:center;
+  vertical-align: middle;
 }
 
 .current_tab {
-  color: white;
-  font-size: 30px;
-  align-self:center;
+  color: orange;
+  display: inline;
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
 }
 
-.home_link {
-  text-decoration: none;
-  margin: 15px;
+.tiles_container {
+  max-width: 1100px;
+  margin: 100px auto 0px;
 }
 
-.linkedin_connect {
-  text-decoration: none;
-  margin: 15px;
-}
-
-.tiles {
-  margin-top: 200px;
-}
-
-.academics {
+.tile {
   width: 100%;
   background-color: #6E6E6E;
   text-decoration: none;
   display: block;
 }
 
-.academics:hover {
+.tile:hover {
   border: 4px solid orange;
   text-decoration: none;
 }
 
-.academics_text {
+.tile_text {
   font-family: 'Indie Flower', cursive;
   font-size: 25px;
   color: orange;
@@ -77,217 +60,17 @@ body {
   text-align: center;
 }
 
-.skills {
-  width: 100%;
-  background-color: #6E6E6E;
-  text-decoration: none;
-  display: block;
-}
-
-.skills:hover {
-  border: 4px solid orange;
-  text-decoration: none;
-}
-
-.skills_text {
-  font-family: 'Indie Flower', cursive;
-  font-size: 25px;
-  color: orange;
-  margin-bottom: -10px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.projects {
-  width: 100%;
-  background-color: #6E6E6E;
-  text-decoration: none;
-  display: block;
-}
-
-.projects:hover {
-  border: 4px solid orange;
-  text-decoration: none;
-}
-
-.projects_text {
-  font-family: 'Indie Flower', cursive;
-  font-size: 25px;
-  color: orange;
-  margin-bottom: -10px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.exp {
-  width: 100%;
-  background-color: #6E6E6E;
-  text-decoration: none;
-  display: block;
-}
-
-.exp:hover {
-  border: 4px solid orange;
-  text-decoration: none;
-}
-
-.exp_text {
-  font-family: 'Indie Flower', cursive;
-  font-size: 25px;
-  color: orange;
-  margin-bottom: -10px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.achieve {
-  width: 100%;
-  background-color: #6E6E6E;
-  text-decoration: none;
-  display: block;
-}
-
-.achieve:hover {
-  border: 4px solid orange;
-  text-decoration: none;
-}
-
-.achieve_text {
-  font-family: 'Indie Flower', cursive;
-  font-size: 25px;
-  color: orange;
-  margin-bottom: -10px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.extra {
-  width: 100%;
-  background-color: #6E6E6E;
-  text-decoration: none;
-  display: block;
-}
-
-.extra:hover {
-  border: 4px solid orange;
-  text-decoration: none;
-}
-
-.extra_text {
-  font-family: 'Indie Flower', cursive;
-  font-size: 25px;
-  color: orange;
-  margin-bottom: -10px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.footer {
-  width: 100%;
-  background-color: #3498DB;
-  display: flex;
-  align-items: center;
-  position:absolute
-  bottom:30px;
-  margin-right: 0px;
-  margin-left: 0px;
-  text-decoration: none;
-}
-
-.connect {
-  position: relative;
-}
-
-.about_me {
-  width: 50px;
-  height: 50px;
-  align-self: center;
-  text-decoration: none;
+.about_me_image {
+  width: 75px;
+  height: 75px;
+  vertical-align: middle;
+  margin: 5px;
 }
 
 .about_me_text {
   color: white;
   font-family: 'Indie Flower', cursive;
+  display: inline;
   font-size: 30px;
-  align-self: center;
-  margin-bottom: -10px;
-}
-
-.phone, .mail {
-  align-self: center;
-  margin: 10px;
-}
-
-@-webkit-keyframes thumb {
-  0% { -webkit-transform: scale(1); }
-  50% { -webkit-transform: scale(0.9); }
-  100% { -webkit-transform: scale(1); }
-}
-
-.home_link:hover, .linkedin_connect:hover
-{
-  -webkit-animation-name: thumb;
-  -webkit-animation-duration: 300ms;
-  -webkit-transform-origin:100% 100%;
-  -webkit-animation-iteration-count: 5;
-  -webkit-animation-timing-function: linear;
-}
-
-.about_me:hover
-{
-  -webkit-animation-name: thumb;
-  -webkit-animation-duration: 300ms;
-  -webkit-transform-origin:50% 50%;
-  -webkit-animation-iteration-count: 5;
-  -webkit-animation-timing-function: linear;
-}
-
-.phone[title]:hover:after {
-  content: "+91 8951680300";
-  font-size: 20px;
-  padding: 4px 8px;
-  margin: 10px;
-  color: #333;
-  position: relative;
-  left: 0;
-  top: 100%;
-  z-index: 20;
-  white-space: nowrap;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  -moz-box-shadow: 0px 0px 4px #222;
-  -webkit-box-shadow: 0px 0px 4px #222;
-  box-shadow: 0px 0px 4px #222;
-  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
-  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
-}
-
-.mail[title]:hover:after {
-  content: "nikhilgupta.dtu@gmail.com";
-  font-size: 20px;
-  padding: 4px 8px;
-  margin: 10px;
-  color: #333;
-  position: relative;
-  left: 0;
-  top: 1000%;
-  z-index: 20;
-  white-space: nowrap;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  -moz-box-shadow: 0px 0px 4px #222;
-  -webkit-box-shadow: 0px 0px 4px #222;
-  box-shadow: 0px 0px 4px #222;
-  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
-  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+  vertical-align: middle;
 }
