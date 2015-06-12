@@ -6,7 +6,8 @@
 .new_row {
 	display: flex;
 	align-items: center;
-	margin: 15px auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .description_column {
@@ -30,8 +31,6 @@
 
 .image_column {
 	margin: 5px;
-	display: inline;
-	width: 100%;
 	vertical-align: middle;
 }
 
