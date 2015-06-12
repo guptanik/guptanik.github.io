@@ -15,7 +15,7 @@
 	vertical-align: middle;
 	background-color: #424242;
 	color: white;
-	display: inline;
+	display: block;
 }
 
 .heading {
@@ -31,6 +31,8 @@
 .image_column {
 	margin: 5px;
 	vertical-align: middle;
+	display: block;
+	width: 100%;
 }
 
 .image {
