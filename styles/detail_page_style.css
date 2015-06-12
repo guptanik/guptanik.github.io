@@ -6,8 +6,7 @@
 .new_row {
 	display: flex;
 	align-items: center;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin: 15px auto;
 }
 
 .description_column {
