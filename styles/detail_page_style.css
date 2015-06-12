@@ -30,7 +30,7 @@
 
 .image_column {
 	margin: 5px;
-	display: block;
+	display: inline;
 	width: 100%;
 	vertical-align: middle;
 }
