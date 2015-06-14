@@ -1,0 +1,44 @@
+.new_row {
+	display: flex;
+	align-items: center;
+}
+
+.content {
+	margin-top: 150px;
+}
+
+.image_column {
+	margin: 5px;
+	vertical-align: center;
+}
+
+.image {
+	width: 100%;
+}
+
+.description_column {
+	border: 4px solid orange;
+	margin: 5px;
+	vertical-align: center;
+	background-color: #424242;
+	color: white;
+}
+
+.heading {
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+}
+
+.text {
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+}
+
+.description_column:hover
+{
+  -webkit-animation-name: thumb;
+  -webkit-animation-duration: 2000ms;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-iteration-count: 3;
+  -webkit-animation-timing-function: linear;
+}
